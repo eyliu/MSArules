@@ -1,0 +1,497 @@
+\documentclass{rules}
+\usepackage{fouriernc}
+\usepackage{todonotes}
+\usepackage{lineno}
+\usepackage{xspace}
+\usepackage{soul}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\input{vc}
+
+\setcounter{secnumdepth}{7}
+\setcounter{tocdepth}{1}
+
+%\newcommand{\temp}[1]{{\color{red} #1}}
+\newcommand{\temp}[1]{\ul{\bf #1}\todo{TBD}\xspace}
+
+%\addtolength{\parskip}{\baselineskip}
+
+\rhead{\thepage}
+\chead{\qquad\qquad Rule \Roman{rule}}
+\lhead{MSA Standing Rules (draft)}
+\rfoot{}
+\cfoot{}
+\lfoot{}
+
+\begin{document}
+\renewcommand{\thepage}{\roman{page}}
+\title{Standing Rules of the Assembly (draft) \\
+		\large \includegraphics[width=5in]{2008_msa_color_logo} \\
+		Revision  \\
+		{\tt commit \GITAbrHash} \\
+		Adopted: }
+\author{\line(1,0){175} \\
+		Elson Y.~Liu \\
+		Rules \& Elections Committee Chair
+			\and
+		\line(1,0){175} \\
+		Gabriel C.~Suprise \\
+		Student General Counsel}
+\date{}
+\maketitle
+\tableofcontents
+\newpage
+
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+\pagestyle{fancy}
+\headheight 35pt
+\thispagestyle{empty}
+\linenumbers
+
+\rule{General Provisions}
+
+\section{Title.}
+These Standing Rules of the Assembly, enacted pursuant to Article II, Section 2, of the Constitution of the Student Body of the Ann Arbor Campus of the University of Michigan, describe the rules, procedures, and internal structures of the Assembly.
+
+\section{Definitions.}
+As referenced in this Compiled Code, the following terms shall have meaning as defined in this section.
+\subsection{}
+"Constitution" shall mean the Constitution of the Student Body of the Ann Arbor Campus of the University of Michigan.
+\subsection{}
+"Michigan Student Assembly" or "MSA" shall mean the central student government of the University of Michigan established by the Constitution.
+\subsection{}
+"University" shall mean the University of Michigan.
+\subsection{}
+"Campus" shall mean the Ann Arbor campus of the University.
+\subsection{}
+"Student organization" shall mean a student organization explicitly recognized by MSA.
+\subsection{}
+"Assembly" shall mean the Student Assembly defined in Article II, Section 2 of the Constitution.
+\subsection{}
+"Central Student Judiciary" or "CSJ" shall mean the student judicial body of the University established by the Constitution.
+\subsection{}
+"Compiled Code" or "Code" shall mean the Compiled Code of the Michigan Student Assembly.
+\subsection{}
+"Standing Rules" or "Rules" shall mean this document.
+\subsection{}
+"Student" shall mean a person enrolled at the University, or a person enrolled in the University during the previous full term who is eligible to be enrolled in the subsequent full term.
+\subsection{}
+"Assembly member" shall mean a student duly elected or appointed to represent a degree-granting unit on the Assembly.
+
+\section{Parliamentary Authority.}
+The rules contained in the current edition of Robert's Rules of Order, Newly Revised, shall govern the Assembly in all cases to which they are applicable and in which they are not inconsistent with the Constitution, the Compiled Code, or the Standing Rules of the Michigan Student Assembly.
+
+\section{Quorum.}
+Pursuant to Article II, Section 4 of the Constitution, a simple majority of the members duly elected or appointed to serve in the Assembly shall constitute a quorum to do business.
+
+\section{Parliamentary Rights.}
+Parliamentary rights on the Assembly shall be granted as follows:
+\subsection{}
+Assembly members \todo{[is "member" defined somewhere?]} shall be granted full parliamentary rights on the Assembly.
+\subsection{}
+All other officers elected or confirmed by the students or the Assembly shall be granted all parliamentary rights on the Assembly except for the right to vote. Members of CSJ, the Election Director and Election Board, appointees to University committees, and regular MSA committee, commission, or select committee members shall not be considered officers of MSA.
+\subsection{}
+Individuals not accounted for above shall not be considered members of MSA and shall not be granted parliamentary rights on the Assembly, though they shall be permitted to speak during the time reserved for community concerns or when yielded to by an MSA member in debate.\todo{[just in debate or during other times, announcements, etc?]}
+
+
+\rule{Officers}
+
+\section{Officers.}
+The officers of the Assembly shall consist of a Speaker and a Vice Speaker.
+\subsection{Speaker.}
+Pursuant to Article II, Section 2 of the Constitution, the Speaker shall chair general sessions of the Assembly and serve on the Executive Committee.  The Speaker and other Assembly officers shall be responsible for accepting items for the Assembly's Agenda and docket.  The Speaker shall sign all legislation passed by the Assembly.
+\subsection{Vice Speaker.}
+The Vice Speaker shall assist the Speaker in fulfilling his/her duties and shall perform the duties of the Speaker in his/her absence.  Upon removal or incapacitation of the Speaker, the Vice Speaker shall assume the duties of the Speaker.
+\section{Elections.}
+The officers of the Assembly shall be elected at the first regular Assembly meeting of the Fall and Winter semesters.  Pursuant to Article IV, Section 2 of the Constitution, the Chief Justice of the Central Student Judiciary shall preside over the Assembly at these meetings until a Speaker is elected.  The officers of the Assembly shall be elected by secret ballot.
+
+
+\rule{Order and Priority of Business}
+
+\section{Agenda.}
+The agenda for Assembly meetings shall have the following form:
+\begin{enumerate}
+\item Call to Order
+\item Opening Roll Call
+\item Approval of Agenda
+\item Approval of Previous Minutes
+\item Guest Speakers
+\item Community Concerns
+\item Announcements
+\item Executive Officers' Reports
+\item Committee \& Commission Reports
+\item Representative Reports
+\item Student Organization Funding Recommendations
+\item Campus Governance Committee Recommendations
+\item Motions to Veto Any Actions of the Steering Committee
+\begin{enumerate}
+	\item Attendance
+\end{enumerate}
+\item Election and Recall of Members
+\item Amendments to the Constitution or Compiled Code
+\item Old Business
+\item New Business
+\item Matters Arising
+\item Closing Roll Call
+\item Adjourn
+\end{enumerate}
+
+\section{Community Concerns.}
+Any person may ask to address the Assembly during Community Concerns, but at the discretion of the chair, preference shall be given to currently enrolled students, alumni of the University, and current faculty and staff of the University.
+
+\section{Representative Reports.}
+Representative Reports shall exist for the purpose of providing a forum for MSA Representatives to report on their MSA projects and activities.  Each representative shall be required to give a report at least every three weeks.  The reporting schedule will be determined by the Chief of Staff.  The Chief of Staff must give representatives at least 72 hours advance notice.  Reports must be submitted in writing or be presented orally at an Assembly meeting. \todo{The Chief of Staff shall publish Reports on the MSA website and within the Assembly Journal within one week of receipt.}
+
+\section{Amendment of the Agenda.}
+Business may be placed on the agenda by being presented to the Steering Committee, or by a two-thirds majority vote of the Assembly at any Assembly meeting.  Such a motion shall not be in order if made after the approval of the agenda by the Assembly.
+
+\section{Time Limits.}
+\subsection{Guest Speakers.}
+Guest speakers to the Assembly shall have no longer than thirty minutes to speak.
+\subsection{Community Concerns.}
+Community concerns is limited to three minutes per speaker and to a total of one hour. Community concerns time may not be reduced.  Community concerns time is exhausted when all persons who desired to address the Assembly have done so even if an hour has not passed.
+\subsection{Executive Officer Reports.}
+Executive officer reports shall be no longer than ten minutes for each report.
+\subsection{Committee Reports.}
+Committee reports will be given in the following order: Steering Committee and then internal committees, commissions, and select committees (in the order determined by the chair).  Reports from committees, commissions, and select committees shall be no longer than five minutes for each report.
+\subsection{Representative Reports.}
+Oral representative reports shall be no longer than five minutes for each report.
+\subsection{Matters Arising.}
+Matters Arising, a time for anyone with parliamentary rights to speak about issues that have come up during the Assembly meeting, may not last for more than 30 minutes total unless time is extended, and it can only be extended once and no person shall speak for more than two minutes at once.
+\subsection{Modification of Time Limits.}
+Any time limit may be extended by a motion, second, and majority vote of the Assembly.  Any time limit, with the exception of community concerns time, may be reduced by a motion, second, and two-thirds majority vote of the Assembly. [Does this statement supersede the aforementioned inability to reduce the time limit for Community Concerns?]
+
+
+\rule{Conduct of Business}
+
+\section{}
+All resolutions \todo{[should this be changed to Resolutions?]} for the Assembly shall be read twice.  At the first reading, the sponsors of the resolution shall offer a description of the resolution.  At the second reading, the resolution shall be debated and voted upon.
+
+\section{}
+Old Business shall consist of all business postponed from previous meetings and all resolutions being read a second time by the Assembly.  New Business shall consist of all business being read a first time by the Assembly. 
+
+\section{Expediting business.}
+New business may be moved to old business upon a motion, second, and two-thirds majority vote to suspend the Compiled Code for the purpose of the motion, followed by a motion, second, and two-thirds majority vote to move the item from old to new business.
+\subsection{Business that cannot be expedited.}
+Amendments to the Constitution or Compiled Code, the MSA budget and amendments to the budget, and proposals to place questions on the ballot in an election may not be moved from old to new business, and must be read twice by the Assembly. Amendments to the MSA Constitution and proposals to place questions on the ballot in an election must return to first-reads should they be amended during second reads.
+
+\section{Objection with amendment.}
+Assembly members may object to motions while simultaneously offering an amendment to the motion.  If the amendment to the motion is defeated, the objection shall be considered automatically withdrawn unless renewed by the objecting member.
+
+\section{Friendly amendments.}
+The sponsors of a motion may accept amendments as "friendly" before or during debate on a motion, and such amendments shall be adopted without debate or vote by the Assembly.  When more than one member has sponsored a motion, every sponsor of the motion must accept an amendment for it to be considered "friendly".
+
+\section{}
+All business proposed to the Assembly shall be ruled out of order by the Student General Counsel if not in compliance with the Constitution or Compiled Code.
+
+\section{Additional Requirements for MSA Resolutions.}
+\subsection{Sponsor.}
+MSA resolutions shall be out of order if it is not sponsored by at least one member of MSA.  Students at large, committees, commissions, select committees, student governments, and student organizations may all be sponsors, but are not members of MSA.
+\subsection{Action.}
+MSA resolutions shall be deemed out of order by the Student General Counsel if it is purely symbolic or does not specify an action to be taken by MSA.\todo{Possibly relax/remove this requirement?}
+\subsection{Truthful Statements.}
+An MSA resolution shall be out of order if it contains untrue or unverifiable statements of fact.
+\subsection{Financial Specificity.}
+MSA resolutions authorizing expenditure or transfer of MSA money for events may do so only from MSA Committee Discretionary or MSA Sponsored Activities accounts.  Resolutions shall be out of order if it does not specify the MSA account(s) to be debited, the recipient(s) of the funds, the purpose(s) of the expenditure(s), and the exact amount(s) to be spent. Resolutions authorizing expenditure or transfer of MSA money from MSA Sponsored Activities must be in accordance with IV I\todo{Compiled Code Article IV, Section I covered ``Sponsored activities and events''}.
+\subsection{Informative Requirement.}
+An MSA resolution shall be out of order if it is so vague that it does not provide enough information to the Assembly to make an informed decision.
+\subsection{}
+All MSA resolutions. must have line numbers (at least every five lines).  If lines are not numbered, the resolution shall be ruled out of order by the Student General Counsel.
+
+\section{Obligation to Execute MSA Legislation.}
+No committee, commission, select committee, or member of MSA may take any action in its or her capacity as an MSA affiliate which contradicts any article of MSA legislation.
+
+\section{Duration of MSA Legislation.}
+\subsection{}
+MSA legislation excluding funding requests shall remain effective until repealed.
+\subsection{}
+Funding requests shall remain effective until the last day of classes of the Winter Semester of the academic year they were passed.
+
+
+\rule{Debate}
+
+\section{Time Limits.}
+\subsection{}
+Debate on each item of business on the agenda shall be no longer than thirty minutes, and shall include time used to debate amendments to business.
+\subsection{}
+During a debate on an item of business, each speaker shall have two minutes.
+\section{Yielding Time During Debate}
+\subsection{}
+Any Assembly member may yield her time to any \st{constituent}\ul{individual} \todo{[is "constituent" defined anywhere?]}.  The time yielded \st{to a constituent} may not exceed the time which was allocated to the Assembly member. \st{Constituents}\ul{Individuals without parliamentary rights} may not yield time to other \st{constituents}\ul{individuals without parliamentary rights}.
+\subsection{}
+Any Assembly member may yield time to any other Assembly member for the purpose of asking a question germane to the debate.  The Assembly member may chose whom, when, and for how long they wish to yield to another member.  No member of the Assembly may yield more time than they were allocated.  Any member may reclaim the time they have yielded at any time.  Questions shall not count to the two speaking maximum per item.\todo{[can this be made more clear, can only speak twice, is this stated elsewhere?]}  If the member who has been yielded time for a question fails to ask a question germane to the item in a timely manner, the Student General Counsel shall issue a warning, and then revert the yielded time back to the original member.
+\section{Quorum Call.}
+A call for quorum shall be in order once during the time limit for debate on any motion.  Members not present during a quorum call shall not be able to vote until the next motion is debated.
+\section{Motions to Close Debate.}
+\subsection{}
+A motion to close debate on a main motion shall not be in order until at least two members have spoken in favor of the motion and two members have spoken against the motion.  
+\subsection{}
+A motion to close debate on an amendment to a main motion shall not be in order until at least one member has spoken in favor of the motion, and one member has spoken against the motion.
+\subsection{}
+No more members may speak for or against any motion than have spoken for the \st{opposing}\ul{opposite} view.\todo{[don't those who speak against represent the opposing view?]}
+\subsection{}
+If there are no objections to a motion to call the question, the Assembly shall proceed immediately to a vote.  If any member objects to a motion to call the question, the Assembly shall vote only upon a motion, second, and two-thirds majority vote of the Assembly.
+
+
+\rule{Voting}
+
+\section{Roll Call Voting.}
+In the absence of unanimous consent, individual votes shall be recorded at all times for MSA legislation. The votes of individual members shall be recorded in the minutes of the meeting at which the vote occurred\todo{ [is this actually done? is it practical? should they be in the minutes themselves?]}.  This shall only apply to votes on the actual legislation itself and shall not apply to votes taken on any other motion made while said legislation is under consideration.  A roll call vote may be taken on any motion at the request of any member if that request is supported by at least one-fifth of a quorum.
+
+\section{}
+The Chair shall vote only to break a tie vote by the Assembly, but may abstain from voting in that instance.  The Chair shall not vote, even in the event of a tie, when the vote in question is by secret ballot. \todo{[shall we consider something here to remove the problem of a continuous tie?]}
+
+\section{Proxy Voting Forbidden.}
+Assembly members may not proxy votes to other Assembly members.
+
+
+\rule{Committees}
+
+\section{Composition.}
+Members of Assembly committees must be currently-enrolled students at the Ann Arbor campus of the University of Michigan.
+
+\section{Leadership.}
+Each committee shall have a single chair and a single vice-chair, both of whom must be voting Assembly representatives. 
+
+\section{Scope.}
+No MSA committee shall take or consider action falling outside of its responsibilities as described herein, unless authorized by the Assembly or the Steering Committee.
+
+\section{Standing Committees.}
+The Assembly shall have the following standing committees.
+\subsection{Finance}
+\subsection{}
+The Rules \& Elections Committee (``R\&E'') shall
+\subsubsection{}
+make recommendations for changes as needed to the Constitution and Compiled Code.
+\subsubsection{}
+monitor and facilitate MSA elections;
+\subsubsection{}
+record the attendance of MSA members and seek their removal when necessary
+\subsubsection{}
+seek appointments to maintain a full Assembly;
+\subsection{Resolutions}
+
+\section{Select Committees.}
+\subsection{Formation.}
+The Assembly may, upon two reads and a majority vote, establish one or more select committees.  A motion to form a select committee shall require a second and a written description of the responsibilities of the select committee.
+\subsection{Duration.}
+Select committees shall expire upon
+\subsection{}
+A date specified in the written description of the committee approved by the Assembly;
+\subsection{}
+The end of the last Steering Committee meeting of a Presidential term after Winter Term elections. 
+\subsection{}
+Two reads and a majority vote by the Assembly.
+\subsection{Leadership and Composition.}
+The leadership and composition of a select committee shall be analogous to that of an MSA commission.  
+
+\section{Investigative Committees.}
+\subsection{Formation.}
+The Assembly may, upon two reads and a majority vote, establish one or more investigative committees to investigate the conduct of any MSA member(s), committee(s), or commission(s).  The procedure for the formation of an investigative committee shall be analogous to that of a select committee.
+\subsection{Duration.}
+The duration of an investigative committee shall be analogous to that of a select committee.
+\subsection{Leadership and Composition.}
+\subsubsection{}
+An investigative committee shall consist of four members, all of whom must be voting representatives on the Assembly.  
+\subsubsection{}
+The Student General Counsel\todo{This should be changed} shall chair the investigative committee.  If the conduct of an Executive Officer is under investigation, the chair of the committee shall be chosen by a majority vote of the Assembly.
+\subsubsection{}
+The four members of the investigative committee will be chosen by lot from the voting representatives of the Assembly, excluding those whose conduct is under investigation and those who serve as members of any committee(s) and/or commission(s) whose conduct is under investigation.
+\subsubsection{}
+Any member of any investigative committee who misses two meetings of the committee shall be discharged from the committee, and a replacement shall be selected by the Assembly.
+\subsection{Investigative Committee Procedure.}
+\subsubsection{}
+The quorum of an investigative committee meeting shall be three members.  No meeting of the committee shall be convened without the chair.
+\subsubsection{}
+The chair of an investigative committee shall vote only to break a tie among the members of the committee.
+\subsubsection{}
+Investigative committee meetings shall be open to the public.
+\subsubsection{}
+MSA member(s), committee(s), or commission(s) under investigation shall have the right to attend meetings of the investigative committee, and shall have the right to submit responses to any findings of the committee.
+\subsubsection{}
+At all stages of an investigation, an investigative committee shall presume that the alleged misconduct did not occur.  Any misconduct must be proven beyond a reasonable doubt\todo{Should the burden of proof be lowered to something like ``clear and convincing''?}.
+\subsubsection{}
+Upon a finding of misconduct by an investigative committee, the committee may recommend, but its recommendations shall not exceed, the censure or removal of any offending MSA member or officer from his or her chair position, officer position, or MSA membership.
+\subsubsection{}
+The findings and recommendations of an investigative committee shall be submitted in writing to the Assembly.  The findings of the committee shall be accepted automatically by the Assembly, and may be rejected by the Assembly upon a motion to reject the findings, a second to the motion, and a two-thirds majority vote of the Assembly.
+\subsubsection{}
+The findings and recommendations of an investigative committee may be appealed to the Central Student Judiciary.
+
+\section{Committee Chair Elections.}
+\subsection{Order of Elections.}
+As provided for in the Constitution, the Assembly shall elect the chairs of its committees and commissions each term.  The Assembly shall elect committee chairs first, commission chairs second, and committee vice-chairs third.  The chair elections shall proceed in order of the appearance of the committees and commissions in the Constitution.  The Assembly shall not elect the chair(s) of the International Students Affairs Commission, which shall nominate and elect its chairs internally.  Individuals elected must be approved by the general assembly at large.  The Assembly shall retain the ability to remove the chairs of every committee and commission.
+\subsection{Nominations.}
+\subsubsection{}
+Candidates for chair and vice-chair positions shall be nominated by a motion and a second.
+\subsubsection{}
+A candidate for a chair or vice-chair position may nominate herself.
+\subsubsection{}
+Nominations will not be valid unless accepted by the nominated candidate nominated. 
+\subsubsection{}
+Nominations and acceptances shall be accepted by the chair if made in person.  Nominations and acceptances shall be accepted by the chair via email, telephone, or letter if verified by an executive officer.
+\subsubsection{}
+The floor shall be closed to nominations when no nominations remain.  The floor may be re-opened to nominations by a motion, second, and majority vote of the Assembly.
+\subsection{Election Procedure.}
+\subsubsection{}
+Each candidate for a chair or vice-chair position shall have two minutes to address the Assembly.  Candidates shall speak in the order in which they were nominated.
+\subsubsection{Questions for candidates.}
+\subsubsubsection{}
+After all candidates have had the opportunity to address the Assembly, Assembly members shall have an opportunity to ask questions of the candidates.
+\subsubsubsection{}
+Questions may be addressed to only one candidate, but every candidate shall have the opportunity to answer every question.
+\subsubsubsection{}
+The Assembly shall ask no more than six questions of every candidate for any one chair or vice-chair position.
+\subsubsubsection{}
+Candidates shall have thirty seconds each to answer questions from the Assembly.
+\subsubsubsection{}
+Candidates shall answer questions in the reverse order in which they were nominated.  The order will then iterate respectively.
+\subsubsection{Voting by the Assembly.}
+\subsubsubsection{}
+All elections for chair and vice-chair positions will be by secret ballot.  
+\subsubsubsection{}
+If only one candidate has been nominated for any position, she shall be automatically elected unless any member of the Assembly objects.  Upon such an objection, the election shall be by secret ballot.
+\subsubsubsection{}
+A candidate shall be elected if she receives a majority of the votes cast.
+\subsubsubsection{}
+If no candidate receives a majority of the votes cast, the candidate receiving the lowest number of votes shall be removed from the election and another vote shall be taken.
+\subsubsubsection{}
+The votes shall be counted by two tellers nominated and approved by a majority of the Assembly.
+
+\section{Committee Rights and Responsibilities.}
+\subsection{Meetings.}
+\subsubsection{}
+Committees shall meet at least once per week during the fall and winter terms.
+\subsubsection{}
+The chair of each committee shall establish the time and location of each meeting, providing at least one day's notice of the time and location to the Assembly.
+\subsubsection{}
+Committees and commissions are not required to meet on weeks where the University observes one or more holidays.
+\subsubsection{}
+Committee and commission chairs or their designees shall be required to attend meetings of the Steering Committee.
+\subsection{Reports.}
+\subsubsection{}
+Each committee and commission chair shall present a budget to the Treasurer in accordance with IV A 3.
+\subsubsection{}
+Each committee and commission shall submit a weekly report of its activities to the Assembly. 
+\subsubsection{}
+Reports may be delivered in person or in writing.
+\subsubsection{}
+A report shall include all information pertinent to the operation of the committee or commission, and must include an attendance report from the committee or commission meeting.
+\subsection{Attendance.}
+\subsubsection{}
+The chair of each committee and commission shall be responsible for recording the attendance of meetings of the committee or commission. 
+\subsubsection{}
+Committee and commission attendance reports shall be submitted to the Vice-Chair of the Rules \& Elections Committee within one day of the committee or commission meeting.
+
+\section{Recall of Committee Chairs and Vice-Chairs}
+\subsection{}
+The chair or vice-chair of a committee or commission shall be automatically recalled by the Assembly upon
+\subsubsection{}
+failure to hold a meeting for two consecutive weeks;
+\subsubsection{}
+failure to attend two consecutive meetings of the Steering Committee;
+\subsubsection{}
+failure to submit attendance reports for the committee or commission for two consecutive weeks;
+\subsubsection{}
+a motion, second, and two-thirds vote of the Assembly.
+\subsection{Procedure for the Removal of a Chair or Vice-Chair.}
+\subsubsection{}
+Any chair or vice-chair who has been recalled by the Assembly shall have the opportunity to address the Assembly for two minutes.
+\subsubsection{}
+A recalled chair or vice-chair may be reinstated upon a motion, second, and majority vote of the Assembly.
+\subsubsection{}
+A recalled chair or vice-chair may not be reinstated after a new chair or vice-chair has been elected to fill the recalled position. 
+
+
+\rule{Member Obligations}
+
+\todo[inline]{The following portion is from the MSA All-Campus Constitution of 1986:}
+
+\section{Responsibilities of Assembly Members.}
+Assembly members shall be responsible for each of the following tasks:
+\subsection{MSA Meetings.}
+Members shall be responsible for attending weekly MSA meetings. Members shall be responsible for checking their MSA mailbox regularly so that they are knowledgeable about the issues which will be discussed at meetings.
+\subsection{Committees.}
+Each representative must be a member of and participate in at least one of the following committees.
+\subsubsection{}
+MSA Internal Committees.
+\subsubsection{}
+MSA Commissions.
+\subsubsection{}
+MSA Select Committees.
+\subsubsection{Other Committees.}
+The requirement to serve on an MSA committee may be waived by the Steering Committee if the Assembly serves on a University Committee, such as Student Legal Services Board, a Regental Committee, or a SACUA Committee, and the Steering Committee determines that membership on said committee takes a substantial amount of time.
+\subsection{Constituent Contact.}
+Members must contact constituents on a regular basis. Constituent contact is meant to include things such as a mailing to constituents, an open discussion with constituents, liaison with one's school or college government, or any similar communication. An informal discussion with friends is not a form of constituent contact.
+\subsection{MSA Office.}
+Each member shall be in the office at least one hour each week at times other than when the member is attending an MSA meeting.
+
+\section{Penalties.}
+A member will be removed from office when s/he accumulates twelve absences. An absence will be excused by the President if and only if: the member is seriously ill, if the member had an exam at the same time as the member obligation, or if there was a death in the member's immediate family within one week of the member obligation. Exceptions to this may be granted only by a unanimous vote of the Assembly. Each of the following shall constitute one absence:
+\subsection{Attendance Roll Calls.}
+For each roll call which the member misses at the beginning or the end of an Assembly meeting.
+\subsection{Committee Meetings.}
+For each committee meeting which the member misses. Each member shall have one committee for which s/he is responsible (See Article XI, Section A, Paragraph 2).
+
+\section{Additional Obligations.}
+Additional obligations for Executive Officers and for committee chairpersons may be defined in the Compiled Code.
+
+\todo[inline]{The following portion is from the old Compiled Code:}
+
+\section{}
+Assembly members are responsible for compliance with the obligations established in Article XI of the Constitution.  The Vice-Chair of the Rules \& Elections Committee shall be responsible for recording the attendance of MSA members.
+
+\section{Rules for Removal.}
+Pursuant to Article XI(B) of the Constitution, an Assembly member shall be removed from MSA upon her/his accumulation of twelve absences.
+\subsection{}
+Upon the accumulation of twelve absences by any member, the Rules \& Elections Committee shall be responsible for notifying the delinquent member of her/his removal, and shall inform the delinquent member of the procedures for the excuse of absences.  The notification shall not be valid unless in writing and setting forth the date and type of each absence.
+\subsection{}
+A delinquent member may have her/his absence(s) excused within two weeks of the notification of removal.  During this time, the delinquent member shall retain all rights of membership in MSA.  If, after the expiration of this two-week period, the member is still delinquent, she/he shall be effectively removed.  No Assembly confirmation shall be necessary for such a removal to be effective.
+
+\section{Rules for the Excuse of Absences.}
+\subsection{}
+Any absence of any member may be excused if the excuse for the absence is one of those listed in Article XI(B) of the Constitution.  To be effective, the absence must be excused by
+\subsubsection{}
+The MSA President; or
+\subsubsection{}
+The Steering Committee, by a two-thirds vote; or
+\subsubsection{}
+The Assembly, by a majority vote upon a motion made during the Announcements portion of an Assembly meeting.
+\subsection{}
+Any absence of any member may be excused if the excuse for the absence is not listed in Article XI(B) of the Constitution only by a unanimous vote of the Assembly upon a motion made during the Announcements portion of an Assembly meeting.
+\subsection{}
+No absence of a member shall be excused after the member has been effectively removed from MSA.
+
+\section{Student Group Outreach.}
+\subsection{}
+The Vice-Chair of the Campus Governance Committee shall be responsible for compiling a list of student organizations with more than one hundred members, and for assigning MSA representatives to act as liaisons between MSA and these organizations.
+\subsection{}
+MSA representatives assigned to act as liaisons between MSA and a student organization must inform the organization of MSA activity at least once per month, and must inform MSA of the organization's activity in the form of a general announcement at least once per month.
+\subsection{}
+Any MSA representative assigned to act as a liaison between MSA and a student organization who fails to meet the requirements of a liaison shall have one absence recorded for every month in which she fails to properly act as a liaison.
+
+
+\rule{Ethics}
+
+\section{Conflicts of Interest.}
+\subsection{Conflicts of Interest with the University.}
+\subsubsection{}
+No member of the Assembly may accept a paid position gained by virtue of her membership in MSA. 
+\subsubsection{}
+No member of the Assembly may work directly for the president, any Regent, any dean, any vice president, or any associate vice president of the University.
+\subsection{Misuse of Assembly Resources.}
+\subsubsection{}
+No member or employee of the Assembly may ask an employee of the Assembly to do work that is substantially unrelated to Assembly work.
+\subsubsection{}
+No member or employee of the Assembly may use the financial or clerical services of the Assembly for her personal use or for the use of a student group of which that person is a member.  
+\subsection{Conflicts of Interest with Student Organizations.}
+\subsubsection{}
+A member of the Assembly shall have a conflict of interest with a student organization, be it recognized or unrecognized by the Assembly, if she, or an immediate family member of hers, receives money from the organization or will receive money from the organization as a direct consequence of her membership in the Assembly.  No member of the Assembly shall have a conflict of interest with a student organization if she is an unpaid member of the organization or has been reimbursed by the organization for her own expenses.
+\subsubsection{}
+No member of the Assembly possessing a conflict of interest with a student organization may participate in debate or vote on any matter regarding the organization with which there exists a conflict of interest.
+\subsection{Obligation of Disclosure.}
+Members of the Assembly must publicly disclose any existing or potential conflicts of interest with the University and student organizations.  If the conflict of interest arises during membership in the Assembly, the member remains obligated to disclose the conflict.
+\subsection{Investigation, Censure, and Removal.}
+Any member of the Assembly who fails to adhere to the rules and regulations regarding the existence and mitigation of conflicts of interest shall be subject to an investigation by the Assembly, the outcome of which may be censure or removal from the Assembly.
+\end{document}
